@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.software.beans">
+    <class name="CExam" table="cprep">
+        <id name="qno">
+            <generator class="native"/>
+                
+        </id>
+        <property name="Technologyname" />
+        <property name="qdis" />
+        <property name="choice1" />
+        <property name="choice2" />
+        <property name="choice3" />
+        <property name="choice4" />
+        <property name="correctchoice" />
+        
+        
+        
+        
+    </class>
+</hibernate-mapping>

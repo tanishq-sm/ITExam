@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+
+<hibernate-configuration>
+<session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mysql</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.show_sql">true</property>
+    <mapping resource="hib/software/beans/admin.hbm.xml"/>
+    <mapping resource="hib/software/beans/student.hbm.xml"/>
+    <mapping resource="hib/software/beans/feedback.hbm.xml"/>
+    <mapping resource="hib/software/beans/C.hbm.xml"/>
+    <mapping resource="hib/software/beans/Cplus.hbm.xml"/>
+    <mapping resource="hib/software/beans/Dsa.hbm.xml"/>
+    <mapping resource="hib/software/beans/Html.hbm.xml"/>
+    <mapping resource="hib/software/beans/Java.hbm.xml"/>
+    <mapping resource="hib/software/beans/Python.hbm.xml"/>
+     <mapping resource="hib/software/beans/Manager.hbm.xml"/>
+     <mapping resource="hib/software/beans/Staff.hbm.xml"/>
+</session-factory>
+</hibernate-configuration>
+

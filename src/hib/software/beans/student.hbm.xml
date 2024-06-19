@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.software.beans">
+    <class name="student" table="student1">
+        <id name="EnrollNo"/>
+        <property name="fullName" />
+        <property name="contact" />
+        <property name="DOB" />
+        <property name="gender" />
+        <property name="address" />
+        <property name="mailId" />
+        <property name="password" />
+        
+        
+        
+    </class>
+</hibernate-mapping>
